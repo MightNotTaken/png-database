@@ -1,0 +1,1 @@
+{"version":3,"file":"machine.route.js","sourceRoot":"","sources":["../../../src/v1/routes/machine.route.ts"],"names":[],"mappings":";;;;;AAAA,oDAA8B;AAC9B,yFAA4D;AAE5D,IAAM,MAAM,GAAG,iBAAO,CAAC,MAAM,EAAE,CAAC;AAChC,MAAM,CAAC,IAAI,CAAC,EAAE,EAAE,4BAAW,CAAC,MAAM,CAAC,CAAC;AACpC,MAAM,CAAC,GAAG,CAAC,OAAO,EAAE,4BAAW,CAAC,IAAI,CAAC,CAAC;AACtC,kBAAe,MAAM,CAAC"}

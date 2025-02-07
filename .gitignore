@@ -1,0 +1,7 @@
+.env
+.token
+
+/node_modules
+/OTA-binaries
+/user-assets
+/assets
