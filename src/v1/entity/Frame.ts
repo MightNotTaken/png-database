@@ -33,6 +33,11 @@ export class Frame extends EntityMetaInfo {
         default: false
     })
     leakage: boolean;
+
+    @Column({
+        default: 'unknown'
+    })
+    category: string;
     
     @ManyToOne(() => Camera, camera => camera.frames, { onDelete: 'CASCADE' })
     camera: Camera;

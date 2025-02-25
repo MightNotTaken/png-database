@@ -109,6 +109,12 @@ var Frame = /** @class */ (function (_super) {
         __metadata("design:type", Boolean)
     ], Frame.prototype, "leakage", void 0);
     __decorate([
+        (0, typeorm_1.Column)({
+            default: 'unknown'
+        }),
+        __metadata("design:type", String)
+    ], Frame.prototype, "category", void 0);
+    __decorate([
         (0, typeorm_1.ManyToOne)(function () { return Camera_1.Camera; }, function (camera) { return camera.frames; }, { onDelete: 'CASCADE' }),
         __metadata("design:type", Camera_1.Camera)
     ], Frame.prototype, "camera", void 0);
